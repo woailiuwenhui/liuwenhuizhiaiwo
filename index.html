@@ -1,0 +1,346 @@
+	<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			html,body{
+				min-width: 1000px;
+			}
+		    #nav{
+		    	width:100%;
+		    	height: 44px;
+		    	background:black;
+		    	position: fixed;
+		    	
+		    }
+		    #navMain{
+		    	width: 1000px;
+		    	height:44px;
+		    	margin:0 auto; /*自动居中*/
+		    }
+		    #navMain a{
+		    	display: inline-block;
+		    	width:110px;
+		    	height:44px;
+		    	line-height: 44px;/*行高==元素的高度时候，文字会垂直居中*/
+		    	text-decoration: none;
+		    	float:left; /*浮点*/
+		    	text-align: center;/*文本居中*/ 
+		    	color:#fff;
+		    }
+		    #navMain a:hover{
+		    	color: #ccc;
+		    }
+		    #logo{
+		    	background-image: url(img/apple.svg);/*设置背景图片*/
+		    	background-repeat: no-repeat;/*背景不重复*/
+		    	background-position:  center;/*背景图片居中*/
+		    }
+		    #logo:hover{
+		    	background-image: url(img/apple2.svg) ;
+		    }
+		    #logo1{
+		    	background-image: url(img/bag.svg);/*设置背景图片*/
+		    	background-repeat: no-repeat;/*背景不重复*/
+		    	background-position:  center;/*背景图片居中*/
+		    }
+		    #logo1:hover{
+		    	background-image: url(img/bag2.svg) ;
+		    }
+		    #logo2{
+		    	background-image: url(img/search.svg);/*设置背景图片*/
+		    	background-repeat: no-repeat;/*背景不重复*/
+		    	background-position:  center;/*背景图片居中*/
+		    }
+		    #logo2:hover{
+		    	background-image: url(img/search2.svg) ;
+		    }
+		    
+		    #banner{
+		    	padding-top: 50px ;
+		    	text-align: center;
+		    	background: #CC3341;
+		    	color:#FFFFFF;
+		    }
+		    #banner h5{
+		    	margin: 0px auto;
+		    	width: 100px;
+		    	height: 44px;
+		    	text-align: center;
+		    	line-height: 44px;
+		    	border: 1px solid #ffffff;
+		    }
+		    #banner h3{
+		    	text-align: center;
+		    }
+		    #banner h1{
+		    	text-align: center;
+		    }
+		    #banner img{		    	
+		    	height: 400px;
+		    	margin: 0 auto;
+		    	
+		 
+		    }
+		    #list {
+				width: 1000px;
+				/*height: 200px;*/
+				background: #ffffff;
+				}
+			#list img{
+				/*padding-top: 200px */;
+				display: inline-block;
+				width: 250px;
+				height: 200px;
+				line-height: 200px;
+				float: left;
+				text-align: center;
+				margin: 0 auto ;
+			}	
+		    
+		    
+		</style>
+	</head>
+	<body>
+		<div id="nav">
+			<div id="navMain">
+				<a href=""id="logo"></a>
+				<a href="">MAC</a>
+				<a href="">IPHONE</a>
+				<a href="">IPAD</a>
+				<a href="">ITOUCH</a>
+				<a href="">WATCH</a>
+				<a href="">技术支持</a>
+				<a href=""id="logo1" ></a>
+				<a href=""id="logo2" ></a>
+			</div>
+		 </div>
+		 
+		 <div id="banner">
+		 	<h5>特别版</h5>
+		 	<h3>IPONE7</h3>
+		 	<h1>现更以红色</h1>
+		 	<img src="img/1.png" />
+		 </div>
+		 <style type="text/css">
+		 #list{
+		 	width: 100%;
+		 	overflow: hidden;
+		 }
+		 #list div{
+		 	display: inline-block;
+		 	width: 25%;
+		 	float:left;
+		 	padding: 1px;
+		 	box-sizing: border-box;
+		 }
+		 #list div img{
+		 	width: 100%;
+		 }	
+		 #footerTop{
+		 	width: 1000px;
+		 	height: 25px;
+		 	padding-top: 20px;
+		 	border-bottom: 1px solid grey;
+		 	font-size: 12px;
+		 	font-weight: 300px;
+		 	margin: 0 auto;
+		 	color: gray;
+		 	/*text-align: left;*/
+		 	/*background: #000000;*/
+		 }
+		 #dgg{
+		 	width: 1000px;
+		 	height: 300px;
+		 	margin: 0 auto;
+		 }
+		 #dgg div{
+		 	display: inline-block;
+		 	padding: 15px;
+		 	padding-left: 0;
+		 	margin: 0 auto;
+		 	
+		 	margin: 0;
+		 	height: 220px;
+		 	width: 15%;
+		 	text-align: left;
+		 	color: grey;
+		 	float: left;
+		 	overflow: hidden;
+		 }
+		 #dgg div li{
+		 	list-style-type:none ;
+		 	
+		 }
+		 #dgg a{
+		 	text-decoration: none;
+		 	font-size: 12px;
+		 	color: grey;
+		 }
+		 #dgg a:hover{
+		 	text-decoration: underline;
+		 	color: #000000;
+		 }
+		 #lwh {
+		 	width: 1000px;
+		 	height: 20px;
+		 	padding-top: 20px;
+		 	border-bottom: 1px solid grey;
+		 	font-size: 12px;
+		 	font-weight: 300px;
+		 	margin: 0 auto;
+		 	color: gray;
+		 	}
+		 	#n {
+		 	width: 1000px;
+		 	height: 10px;
+		 	padding-top: 10px;
+		 	font-size: 12px;
+		 	font-weight: 300px;
+		 	margin: 0 auto;
+		 	color: gray;
+		 	padding: 0;
+		 		}
+		 	#n div{
+		 		display: inline-block;
+		 		
+		 	}
+		 	#n2{
+		 		padding-left: 10px;
+		 		margin: 0 auto;
+		 	}
+		 	#n2 div{
+		 		border-right: 1px solid grey;	 		
+		 		padding-right: 5px;
+		 	}
+		 	#n2 a{
+		 		color: #000000;
+		 		text-decoration: none;
+		 		
+		 	}
+		 	#n2 a:hover {
+		 		text-decoration: underline;
+		 		
+		 	}
+		 	#n3 img{
+		 		widows: 16px;
+		 		height: 16px;
+		 	
+		 	}
+		 	#n3{
+		 		float:right;
+		 	}
+		 	#b {
+		 	width: 1000px;
+		 	height: 25px;
+		 	padding-top: 20px;
+		 	font-size: 10px;
+		 	
+		 	margin: 0 auto;
+		 	color: gray;
+		 		
+		 	}
+		 		
+		 </style>
+		 	<div id="list">
+		 	<div><img src="img/small_img_1.jpg" alt=""/></div>
+		 	<div><img src="img/small_img_2.jpg" alt=""/></div>
+		 	<div><img src="img/small_img_3.jpg" alt=""/></div>
+		 	<div><img src="img/small_img_4.jpg" alt=""/></div>
+		 	</div>
+		 	<div id="footer">
+		 		<div id="footerTop">
+		 			<p>双摄像头仅于 ipone 7 plus 提供，亮黑色和红色外观仅提供128G和256G</p>
+		 		</div>
+		 		<div id="dgg">
+		 			<div><ul>
+		 				<li style="font-size: 12px;font-weight: 300;color: #000000">选购及了解</li>
+		 				<li><a href="">Mac</a></li>
+		 				<li><a href="">iPad</a></li>
+		 				<li><a href="">Watch</a></li>
+		 				<li><a href="">Music</a></li>
+		 				<li><a href="">iTunes</a></li>
+		 				<li><a href="">iPod</a></li>
+		 				<li><a href="">配件</a></li>
+		 				<li><a href="">APP Store 充值卡</a></li>
+		 				<li><a href="">iPhone</a></li>
+		 			</ul>
+		 			</div>
+		 			<div><ul>
+		 				<li style="font-size: 12px;font-weight: 300;color: #000000">Apple Store 商店</li>
+		 				<li><a href="">查找零售店</a></li>
+		 				<li><a href="">Genius Bar 天才吧</a></li>
+		 				<li><a href="">讲座和学习</a></li>
+		 				<li><a href="">青少年活动</a></li>
+		 				<li><a href="">Apple Store App</a></li>
+		 				<li><a href="">翻新和优惠</a></li>
+		 				<li><a href="">分期付款</a></li>
+		 				<li><a href="">重复使用和循环利用</a></li>
+		 				<li><a href="">订单状态</a></li>
+		 				<li><a href="">选购帮助</a></li>
+		 			</ul>
+		 			</div>
+		 			<div><ul>
+		 				<li style="font-size: 12px;font-weight: 300;color: #000000">教育应用</li>
+		 				<li><a href="">Apple与教育</a></li>
+		 				<li><a href="">高校师生选购</a></li>
+		 			</ul>
+		 				</div>
+		 			<div><ul>
+		 			    <li style="font-size: 12px;font-weight: 300;color: #000000">账户</li>
+		 				<li><a href="">管理你的Apple ID</a></li>
+		 				<li><a href="">Apple Store账户</a></li>
+		 				<li><a href="">iCloud.com</a></li>
+		 			</ul>
+		 			</div>
+		 			<div><ul>
+		 				<li style="font-size: 12px;font-weight: 300;color: #000000">关于 Apple</li>
+		 				<li><a href="">Apple 资讯</a></li>
+		 				<li><a href="">工作机会</a></li>
+		 				<li><a href="">媒体资讯</a></li>
+		 				<li><a href="">活动</a></li>
+		 				<li><a href="">联系 Apple</a></li>
+		 			</ul>
+		 			</div>
+		 		</div>
+		 		
+		 </div>
+		 <div id="lwh">
+		 	<div>
+		 		<p>更多选购方式：前往 Apple Store 零售店，致电 400-666-8800 或查找在你附近的授权经销商。</p>
+		 	</div>
+		 	
+		 </div>
+		 <div id="n">
+		 	<div id="n1">
+		 		<p>Copyright © 2017 Apple Inc. 保留所有权利。</p>
+	
+		 	</div>
+		 	<div id="n2">
+		 		<div><a href="">隐私政策</a></div>
+		 		<div><a href="">使用条款</a></div>
+		 		<div><a href="">销售政策</a></div>
+		 		<div><a href="">法律信息</a></div>
+		 		<div><a href="">网站地图</a></div>
+		 	</div>
+		 	<div id="n3">
+		 		<div><img src="img/china.png" alt=""/></div>中国
+		 		
+		 		
+		 	</div>
+		 		
+		 	
+		 	
+		 </div>
+		<div id="b">
+			<p>京公安网安备 110105002008968 京ICP备10214630</p>
+		</div>
+		 	
+		
+	</body>
+</html>
